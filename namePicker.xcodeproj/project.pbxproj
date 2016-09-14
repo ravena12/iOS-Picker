@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8E38A7C61D89BEF200C39455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7C51D89BEF200C39455 /* AppDelegate.swift */; };
-		8E38A7C81D89BEF200C39455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7C71D89BEF200C39455 /* ViewController.swift */; };
+		8E38A7C81D89BEF200C39455 /* NamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7C71D89BEF200C39455 /* NamesViewController.swift */; };
 		8E38A7CB1D89BEF200C39455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E38A7C91D89BEF200C39455 /* Main.storyboard */; };
 		8E38A7CE1D89BEF200C39455 /* namePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7CC1D89BEF200C39455 /* namePicker.xcdatamodeld */; };
 		8E38A7D01D89BEF200C39455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E38A7CF1D89BEF200C39455 /* Assets.xcassets */; };
 		8E38A7D31D89BEF200C39455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E38A7D11D89BEF200C39455 /* LaunchScreen.storyboard */; };
 		8E38A7DE1D89BEF200C39455 /* namePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7DD1D89BEF200C39455 /* namePickerTests.swift */; };
 		8E38A7E91D89BEF200C39455 /* namePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7E81D89BEF200C39455 /* namePickerUITests.swift */; };
+		8E38A7F71D89E08700C39455 /* FirstNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7F61D89E08700C39455 /* FirstNameViewController.swift */; };
+		8E38A7F91D89E3C800C39455 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7F81D89E3C800C39455 /* CancelButtonDelegate.swift */; };
+		8E38A7FB1D89E8B200C39455 /* FirstNameDoneControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7FA1D89E8B200C39455 /* FirstNameDoneControllerDelegate.swift */; };
+		8E38A7FE1D89F09900C39455 /* NamesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7FC1D89F09900C39455 /* NamesModel.xcdatamodeld */; };
+		8E38A8011D89F19E00C39455 /* Name+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A7FF1D89F19E00C39455 /* Name+CoreDataProperties.swift */; };
+		8E38A8021D89F19E00C39455 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A8001D89F19E00C39455 /* Name.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		8E38A7C21D89BEF200C39455 /* namePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = namePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E38A7C51D89BEF200C39455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E38A7C71D89BEF200C39455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E38A7C71D89BEF200C39455 /* NamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesViewController.swift; sourceTree = "<group>"; };
 		8E38A7CA1D89BEF200C39455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E38A7CD1D89BEF200C39455 /* namePicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = namePicker.xcdatamodel; sourceTree = "<group>"; };
 		8E38A7CF1D89BEF200C39455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		8E38A7E41D89BEF200C39455 /* namePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = namePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E38A7E81D89BEF200C39455 /* namePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namePickerUITests.swift; sourceTree = "<group>"; };
 		8E38A7EA1D89BEF200C39455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E38A7F61D89E08700C39455 /* FirstNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstNameViewController.swift; sourceTree = "<group>"; };
+		8E38A7F81D89E3C800C39455 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		8E38A7FA1D89E8B200C39455 /* FirstNameDoneControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstNameDoneControllerDelegate.swift; sourceTree = "<group>"; };
+		8E38A7FD1D89F09900C39455 /* NamesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NamesModel.xcdatamodel; sourceTree = "<group>"; };
+		8E38A7FF1D89F19E00C39455 /* Name+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Name+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E38A8001D89F19E00C39455 /* Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,8 @@
 		8E38A7B91D89BEF200C39455 = {
 			isa = PBXGroup;
 			children = (
+				8E38A7FF1D89F19E00C39455 /* Name+CoreDataProperties.swift */,
+				8E38A8001D89F19E00C39455 /* Name.swift */,
 				8E38A7C41D89BEF200C39455 /* namePicker */,
 				8E38A7DC1D89BEF200C39455 /* namePickerTests */,
 				8E38A7E71D89BEF200C39455 /* namePickerUITests */,
@@ -100,7 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				8E38A7C51D89BEF200C39455 /* AppDelegate.swift */,
-				8E38A7C71D89BEF200C39455 /* ViewController.swift */,
+				8E38A7C71D89BEF200C39455 /* NamesViewController.swift */,
+				8E38A7FC1D89F09900C39455 /* NamesModel.xcdatamodeld */,
+				8E38A7FA1D89E8B200C39455 /* FirstNameDoneControllerDelegate.swift */,
+				8E38A7F81D89E3C800C39455 /* CancelButtonDelegate.swift */,
+				8E38A7F61D89E08700C39455 /* FirstNameViewController.swift */,
 				8E38A7C91D89BEF200C39455 /* Main.storyboard */,
 				8E38A7CF1D89BEF200C39455 /* Assets.xcassets */,
 				8E38A7D11D89BEF200C39455 /* LaunchScreen.storyboard */,
@@ -259,9 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E38A7F71D89E08700C39455 /* FirstNameViewController.swift in Sources */,
 				8E38A7CE1D89BEF200C39455 /* namePicker.xcdatamodeld in Sources */,
-				8E38A7C81D89BEF200C39455 /* ViewController.swift in Sources */,
+				8E38A7FB1D89E8B200C39455 /* FirstNameDoneControllerDelegate.swift in Sources */,
+				8E38A7C81D89BEF200C39455 /* NamesViewController.swift in Sources */,
+				8E38A8011D89F19E00C39455 /* Name+CoreDataProperties.swift in Sources */,
 				8E38A7C61D89BEF200C39455 /* AppDelegate.swift in Sources */,
+				8E38A8021D89F19E00C39455 /* Name.swift in Sources */,
+				8E38A7F91D89E3C800C39455 /* CancelButtonDelegate.swift in Sources */,
+				8E38A7FE1D89F09900C39455 /* NamesModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +539,16 @@
 			);
 			currentVersion = 8E38A7CD1D89BEF200C39455 /* namePicker.xcdatamodel */;
 			path = namePicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8E38A7FC1D89F09900C39455 /* NamesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E38A7FD1D89F09900C39455 /* NamesModel.xcdatamodel */,
+			);
+			currentVersion = 8E38A7FD1D89F09900C39455 /* NamesModel.xcdatamodel */;
+			path = NamesModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
